@@ -1,0 +1,396 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{A1515754-2B14-4F37-B3A2-230EFFD257DB}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Empiria.WebApp"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "Empiria.WebApp"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "true"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "Empiria"
+                    Project = "{73EA993B-576B-4A5B-ACC5-117DAD0254EE}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Empiria.Workplace.Web"
+                    Project = "{0AEEA12E-B4F7-4E12-A768-99BB82BD3FC9}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Empiria.Kernel"
+                    Project = "{F518E007-2B16-4804-BA45-695EA098E1C0}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Empiria.Erario"
+                    Project = "{14BE4FA1-42AA-4C1F-BE21-3C8004E641F9}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Empiria.Workplace"
+                    Project = "{2790AD3E-0AE4-4C94-83BA-96BC53185B19}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Empiria.Integration.Writers"
+                    Project = "{6B775C1C-FC78-49CA-BC39-13200C01BD70}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmpiriaWeb.AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "css\exception.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "css\header.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "css\logon.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "css\start_page.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "css\toolbar.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "css\workarea.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "css\workplace.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "css\worksheet.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "erario\budget\analysis.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "erario\budget\analysis.aspx.cs"
+                    DependentUpon = "analysis.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "erario\budget\analysis.aspx.resx"
+                    DependentUpon = "analysis.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "erario\budget\search.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "erario\budget\search.aspx.cs"
+                    DependentUpon = "search.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "erario\budget\search.aspx.resx"
+                    DependentUpon = "search.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "erario\budget\viewer.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "erario\budget\viewer.aspx.cs"
+                    DependentUpon = "viewer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "erario\budget\viewer.aspx.resx"
+                    DependentUpon = "viewer.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <Folder RelPath = "media\" />
+                <File
+                    RelPath = "scripts\components\grayed_image.htc"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "scripts\components\webservice.htc"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "scripts\tools\clock.js"
+                    BuildAction = "Content"
+                />
+                <Folder RelPath = "scripts\validators\" />
+                <Folder RelPath = "scripts\web_services\" />
+                <File
+                    RelPath = "scripts\workplace\default.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "user_controls\data_grid_navigator.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "user_controls\data_grid_navigator.ascx.cs"
+                    DependentUpon = "data_grid_navigator.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "user_controls\data_grid_navigator.ascx.resx"
+                    DependentUpon = "data_grid_navigator.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "workplace\default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "workplace\default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "workplace\default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "workplace\exception.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "workplace\exception.aspx.cs"
+                    DependentUpon = "exception.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "workplace\exception.aspx.resx"
+                    DependentUpon = "exception.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "workplace\header.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "workplace\header.aspx.cs"
+                    DependentUpon = "header.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "workplace\header.aspx.resx"
+                    DependentUpon = "header.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "workplace\start_page.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "workplace\start_page.aspx.cs"
+                    DependentUpon = "start_page.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "workplace\start_page.aspx.resx"
+                    DependentUpon = "start_page.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "workplace\toolbar.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "workplace\toolbar.aspx.cs"
+                    DependentUpon = "toolbar.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "workplace\toolbar.aspx.resx"
+                    DependentUpon = "toolbar.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "workplace\under_construction.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "workplace\under_construction.aspx.cs"
+                    DependentUpon = "under_construction.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "workplace\under_construction.aspx.resx"
+                    DependentUpon = "under_construction.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "workplace\workarea.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "workplace\workarea.aspx.cs"
+                    DependentUpon = "workarea.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "workplace\workarea.aspx.resx"
+                    DependentUpon = "workarea.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <Folder RelPath = "workplace.mobile\" />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

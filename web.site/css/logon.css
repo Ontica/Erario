@@ -1,0 +1,137 @@
+BODY
+{
+	color: #265c6e;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+}
+.initHeaderGradient
+{
+	border-top: #3a707d 6px solid;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr= '#c1cfd0' , endColorStr= '#ffffff' , gradientType= '1' );
+	border-bottom: #96b2b2 2px solid;
+}
+.endHeaderGradient
+{
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#ffffff', endColorStr='#96b2b2', gradientType='1');
+	BORDER-TOP: #3a707d 6px solid;
+	border-bottom: #96b2b2 2px solid;
+}
+.imageHeaderGradient
+{
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#ffffff', endColorStr='#7e9b9b', gradientType='1');
+	border: none;
+}
+.headerTitle
+{
+	font-weight: bold;
+	font-size: 24pt;
+	color: #666666;
+	font-family: Arial, Verdana;
+}
+.subheaderTitle
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: #999999;
+	font-family: Tahoma, 'Trebuchet MS' , Arial;
+}
+.welcome
+{
+	font-weight: bold;
+	font-size: 12pt;
+	color: #265c6e;
+	border-bottom: #3a707d 1px solid;
+	font-family: Arial, 'Trebuchet MS';
+}
+.optionsTable
+{
+    BORDER-RIGHT: #3a707d 1px solid;
+    BORDER-BOTTOM: #3a707d 1px solid
+}
+.cmdButton
+{
+	border-right: #a9a9a9 1px solid;
+	border-top: lightgrey 1px solid;
+	font-size: 11px;
+	background-image: none;
+	border-left: lightgrey 1px solid;
+	cursor: hand;
+	color: #265c6e;
+	border-bottom: #a9a9a9 1px solid;
+	background-repeat: repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 19px;
+	background-color: #fafafa;
+	text-decoration: none;
+}
+INPUT
+{
+	font-size: 8pt;
+	color: #3a707d;
+	font-family: Tahoma, Arial;
+	height: 20px;
+	background-color: #ffffff;
+}
+.copyright, .copyright A:link, .copyright A:visited
+{
+	font-size: 8pt;
+	color: #cacaca;
+	font-family: Arial, Tahoma;
+}
+.copyright2
+{
+	font-size: 8pt;
+	color: #265c6e;
+	font-family: Tahoma, Arial;
+}
+.copyright A:hover
+{
+	color: #8a8a8a;
+	text-decoration: none;
+}
+img
+{
+	cursor:hand;
+	border:0px;
+	margin-right:4px;
+}
+.headerImage
+{
+	border:0px;
+	cursor:default;
+	margin-right:0px;
+}
+.normalImage
+{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=0);
+}
+.grayedImage
+{
+	behavior: url(~/scripts/components/grayed_image.htc);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);	
+}
+.enabledImage
+{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=0);
+}
+.disabledImage
+{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);	
+}
+A:link, A:visited, A:active
+{
+	font-size: 8pt;
+	color: #265c6e;
+	text-decoration: none;
+}
+A:hover
+{
+	font-size: 8pt;
+	color: #062c3e;
+	text-decoration: none;
+}
+BODY TABLE
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Arial
+}

@@ -1,0 +1,97 @@
+BODY
+{
+	margin: 0px 6px 0px 6px;
+	color: #265c6e;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	background-color: Transparent;
+}
+.appContainer
+{
+	border-bottom: #b1bcb1 1px solid;
+	border-left: #b1bcb1 1px solid;
+	border-right: #b1bcb1 1px solid;	
+	border-top: #b1bcb1 1px solid;
+	height: 100%;
+	width: 100%;
+	background-color: #fafafa;
+}
+.appHeader
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr= '#cccccc', endColorStr= '#f2f2f2', gradientType= '0');
+}
+.appBody
+{
+	padding-right: 6px;
+	padding-left: 4px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	background-color: #f2f2f2;	
+}
+.statusBar 
+{
+	background-color: #f2f2f2;
+	height: 6px;
+	width: 100%;
+}
+.decoratorImage
+{
+	cursor:auto;
+}
+.workareaTitle
+{
+	font-size: 14pt;
+	color: #265c6e;
+	font-family: Arial;
+}
+.normalImage
+{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=0);
+}
+.grayedImage
+{
+	behavior: url(~/scripts/components/grayed_image.htc);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);	
+}
+.enabledImage
+{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=0);
+}
+.disabledImage
+{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);	
+}
+A:link, A:visited, A:active
+{
+    FONT-SIZE: 8pt;
+    COLOR: #265c6e;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    FONT-SIZE: 8pt;
+    COLOR: #164c5e;
+    TEXT-DECORATION: none
+}
+IMG
+{
+	border:0px;
+	cursor:hand;
+}
+BODY TABLE
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Arial
+}
+.propertyName
+{
+	font-size: 8pt;
+	color: #9a9a9a;
+	font-family: Arial;
+	vertical-align: top;
+}
+.propertyValue
+{
+	font-size: 8pt;
+	font-family: Tahoma;
+	vertical-align: top;
+}

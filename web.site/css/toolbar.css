@@ -1,0 +1,281 @@
+BODY
+{
+	margin: 0px 0px 0px 0px;
+	color: #003366;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	background-color: transparent;
+}
+.arrow
+{
+	font-weight: bold;
+	font-family: Wingdings;
+}
+TABLE
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma
+}
+IMG
+{
+	border:0px;
+	cursor:hand;
+}
+.toolbarGradient
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr= '#f2f2f2' , endColorStr= '#f2f2f2' , gradientType= '0' );
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.toolbarTitle
+{
+	color: #265c6e;
+	width: 100%;
+}
+A:link, A:visited, A:active
+{
+    FONT-SIZE: 8pt;
+    COLOR: #003366;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    FONT-SIZE: 8pt;
+    COLOR: #001144;
+    TEXT-DECORATION: none;
+}
+.menuContainer
+{
+	border-bottom: #c5cfcf 1px solid;
+	border-left: #c5cfcf 1px solid;
+	border-right: #c5cfcf 1px solid;
+	border-top: #c5cfcf 1px solid;	
+	width: 100%;
+	background-color: #fafafa;
+}
+.menuContainerTitle
+{
+	padding-right: 3px;
+	padding-left: 6px;
+	width: 100%;
+	color: #1a4d58;
+	font-family: Arial;
+	height: 20px;
+	background-color: #e1e8e0;
+}
+.txtSearch
+{
+	font-size: 8pt;
+	font-family: Arial, Tahoma;
+	height: 19px;
+	width: 100%;
+}
+.grayedImage
+{
+	behavior: url(~/scripts/components/grayed_image.htc);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}
+.navigationBar
+{	
+	padding-right: 0px;
+	padding-left: 2px;
+	padding-bottom: 2px;
+	border-left: #b0c4de 1px solid;
+	color: #3a707d;
+	padding-top: 2px;
+	font-family: Arial;
+	font-size: 18pt;	
+}
+TABLE.dataGrid
+{
+	border-right: #b0c4de 1px solid;
+	padding-right: 0px;	
+	padding-left: 0px;
+	padding-bottom: 0px;
+	border-left: #b0c4de 1px solid;
+	color: #3a707d;
+	padding-top: 0px;
+	border-bottom: #b0c4de 1px solid;
+	position: static;
+	background-color: #fdfdfd;
+}
+TABLE.dataGrid TR
+{
+    MARGIN-RIGHT: 0pt
+}
+TABLE.dataGrid TR TD
+{
+	border-right: #d9ffda 1px solid;
+	padding-right: 2px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	border-bottom: #d9ffda 1px solid;
+}
+TABLE.dataGrid TR TD A:link
+{
+    COLOR: #fffaf5
+}
+TABLE.dataGrid TR TD A:hover
+{
+    COLOR: #fffaf5
+}
+TABLE.dataGrid TR TD A:link
+{
+    COLOR: #fffaf5
+}
+TABLE.dataGrid TR TD A:visited
+{
+    COLOR: #fffaf5
+}
+TABLE.dataGrid TR TD A:hover
+{
+    COLOR: #fffaf5;
+    TEXT-DECORATION: underline
+}
+TABLE.dataGrid .headerRow
+{
+	color: #fffaf5;
+	font-family: Arial;
+	height: 22px;
+	background-color: #95b7b7;
+}
+TABLE.dataGrid .borderHeaderRow TD
+ {
+	background-image: url(~/images/blue_gradient.gif);
+	color: #191970;
+	font-family: Arial;
+	height: 22px;
+	background-color: #b0c4de;
+    border-top: #c4d5eb 1px solid;
+}
+TABLE.dataGrid .oddRowH1
+{
+	color: #18565e;
+	height: 22px;
+	background-color: #ebebeb;
+	font-weight: bold;	
+}
+TABLE.dataGrid .oddRowH2
+{
+	font-weight: bold;
+	color: #18565e;
+	height: 22px;
+	background-color: #fffaf5;
+}
+TABLE.dataGrid .oddRowH3
+{
+	color: #18565e;
+	font-style: italic;
+	height: 22px;
+	background-color: #fffaf5;
+}
+TABLE.dataGrid .oddRow
+{
+	color: #18565e;
+	background-color: #fffaf5;	
+	height: 22px;
+}
+TABLE.dataGrid .evenRowH1
+{
+	font-weight: bold;
+	color: #18565e;
+	height: 22px;
+	background-color: #ebebeb;
+}
+TABLE.dataGrid .evenRowH2
+{
+	font-weight: bold;
+	color: #18565e;
+	height: 22px;
+	background-color: #effff7;
+}
+TABLE.dataGrid .evenRowH3
+{
+	font-style: italic;	
+	color: #18565e;
+	height: 22px;
+	background-color: #effff7;
+}
+TABLE.dataGrid .evenRow
+{
+	color: #18565e;
+	height: 22px;
+	background-color: #effff7;
+}
+TABLE.dataGrid .oddErrRow
+{
+	color: #191970;
+	height: 22px;
+	background-color: #ffe7d9;
+}
+TABLE.dataGrid .evenErrRow
+{
+	color: #191970;
+	height: 22px;
+	background-color: #ffd6c8;
+}
+TABLE.dataGrid .oddRowGreen
+{
+  color: #191970;
+  background-color: #b0c4de;
+}
+TABLE.dataGrid .transparentRow
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #5980c6
+}
+TABLE.dataGrid .totalsRow
+{
+	font-weight: bold;
+	color: #18565e;
+	height: 24px;
+	background-color: #f0f0f0;
+}
+TABLE.dataGrid .oddRow A
+{
+	COLOR: #124093;
+}
+TABLE.dataGrid .oddRow A:active
+{
+	COLOR: #124093;
+}
+TABLE.dataGrid .oddRow A:link
+{
+	COLOR: #124093;
+}
+TABLE.dataGrid .oddRow A:visited
+{
+	COLOR: #124093;
+}
+TABLE.dataGrid .oddRow A:hover
+{
+	color: #191970;
+  TEXT-DECORATION: underline
+}
+TABLE.dataGrid .dataBoxSuperHeader
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #1d4884
+}
+TABLE.dataGrid .dataBoxSuperHeader A
+{
+    COLOR: white
+}
+TABLE.dataGrid .dataBoxSuperHeader A:active
+{
+    COLOR: white
+}
+TABLE.dataGrid .dataBoxSuperHeader A:link
+{
+    COLOR: white
+}
+TABLE.dataGrid .dataBoxSuperHeader A:visited
+{
+    COLOR: white
+}
+TABLE.dataGrid .dataBoxSuperHeader A:hover
+{
+    COLOR: white
+}

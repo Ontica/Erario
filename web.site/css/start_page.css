@@ -1,0 +1,57 @@
+BODY
+{
+	border-right: #c5cfcf 1px solid;
+	border-top: #c5cfcf 1px solid;
+	font-size: 8pt;
+	margin: 4px;
+	border-left: #c5cfcf 1px solid;
+	color: #3a707d;
+	border-bottom: #c5cfcf 1px solid;
+	font-family: Tahoma;
+	background-color: #fffaf0;
+}
+TABLE
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma
+}
+IMG
+{
+	border:0px;
+	cursor:default;
+}
+A:link, A:visited, A:active
+{
+	color: #3a707d;
+	FONT-SIZE: 8pt;
+    TEXT-DECORATION: none;
+}
+A:hover
+{
+    TEXT-DECORATION: underline;
+}
+.notAvailableImage
+{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+	cursor:auto;
+}
+.titleRow
+{
+	font-weight: bold;
+	font-size: 12pt;
+	color: #336666;
+	border-bottom: #d3d3d3 1px solid;
+	font-family: Arial, Helvetica;
+}
+.subTitle
+{
+	font-weight: bold;
+	font-size: 8pt;
+	color: #a06544;
+	border-bottom: #d3d3d3 1px solid;
+	font-family: Tahoma, Verdana;
+}
+.underConstruction
+{
+	color: #969696;
+}

@@ -1,0 +1,65 @@
+BODY
+{
+	margin: 0px 6px 0px 6px;
+	color: #265c6e;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	background-color: #fafafa;
+}
+.itemInfoGradient
+{
+	border-right: #b1bcb1 2px solid;
+	border-top: #b1bcb1 1px solid;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr= '#cacaca' , endColorStr= '#fafafa' , gradientType= '0' );
+	border-left: #b1bcb1 1px solid;
+	border-bottom: #b1bcb1 1px solid;
+	background-color: #475f84;
+}
+.decoratorImage
+{
+	cursor:auto;
+}
+.itemName
+{
+	font-size: 14pt;
+	color: #265c6e;
+	font-family: Arial;
+}
+.normalImage
+{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=0);
+}
+.grayedImage
+{
+	behavior: url(~/scripts/components/grayed_image.htc);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);	
+}
+.enabledImage
+{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=0);
+}
+.disabledImage
+{
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);	
+}
+A:link, A:visited, A:active
+{
+    FONT-SIZE: 8pt;
+    COLOR: #265c6e;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    FONT-SIZE: 8pt;
+    COLOR: #164c5e;
+    TEXT-DECORATION: none
+}
+IMG
+{
+	border:0px;
+	cursor:hand;
+}
+BODY TABLE
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Arial
+}

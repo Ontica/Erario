@@ -1,0 +1,415 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="es-MX">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Presupuesto">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ClassTag01" type="xs:string" minOccurs="0" />
+                <xs:element name="ClassName" type="xs:string" minOccurs="0" />
+                <xs:element name="Apr2005" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Pry2006" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Amp2006" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Red2006" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Apr2006" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Comp20062005" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Presupuesto>
+    <ClassTag01>01</ClassTag01>
+    <ClassName>Poder Legislativo</ClassName>
+    <Apr2005>6355918502</Apr2005>
+    <Pry2006>7764176651</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>7764176651</Apr2006>
+    <Comp20062005>1408258149</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>02</ClassTag01>
+    <ClassName>Presidencia de la República</ClassName>
+    <Apr2005>1408059620</Apr2005>
+    <Pry2006>1628613200</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>1628613200</Apr2006>
+    <Comp20062005>220553580</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>03</ClassTag01>
+    <ClassName>Poder Judicial</ClassName>
+    <Apr2005>21037647398</Apr2005>
+    <Pry2006>28541212933</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>28541212933</Apr2006>
+    <Comp20062005>7503565535</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>04</ClassTag01>
+    <ClassName>Gobernación</ClassName>
+    <Apr2005>3422375360</Apr2005>
+    <Pry2006>4432813800</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>4432813800</Apr2006>
+    <Comp20062005>1010438440</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>05</ClassTag01>
+    <ClassName>Relaciones Exteriores</ClassName>
+    <Apr2005>4034554690</Apr2005>
+    <Pry2006>4530738847</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>4530738847</Apr2006>
+    <Comp20062005>496184157</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>06</ClassTag01>
+    <ClassName>Hacienda y Crédito Público</ClassName>
+    <Apr2005>26915736490</Apr2005>
+    <Pry2006>25957145700</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>25957145700</Apr2006>
+    <Comp20062005>-958590790</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>07</ClassTag01>
+    <ClassName>Defensa Nacional</ClassName>
+    <Apr2005>24002172080</Apr2005>
+    <Pry2006>25331900900</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>25331900900</Apr2006>
+    <Comp20062005>1329728820</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>08</ClassTag01>
+    <ClassName>Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación</ClassName>
+    <Apr2005>48396081880</Apr2005>
+    <Pry2006>37479246300</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>37479246300</Apr2006>
+    <Comp20062005>-10916835580</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>09</ClassTag01>
+    <ClassName>Comunicaciones y Transportes</ClassName>
+    <Apr2005>36694434600</Apr2005>
+    <Pry2006>20127058400</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>20127058400</Apr2006>
+    <Comp20062005>-16567376200</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>10</ClassTag01>
+    <ClassName>Economía</ClassName>
+    <Apr2005>7017581932</Apr2005>
+    <Pry2006>6735439800</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>6735439800</Apr2006>
+    <Comp20062005>-282142132</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>11</ClassTag01>
+    <ClassName>Educación Pública</ClassName>
+    <Apr2005>127668397726</Apr2005>
+    <Pry2006>125488427200</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>125488427200</Apr2006>
+    <Comp20062005>-2179970526</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>12</ClassTag01>
+    <ClassName>Salud</ClassName>
+    <Apr2005>34024454010</Apr2005>
+    <Pry2006>39118906035</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>39118906035</Apr2006>
+    <Comp20062005>5094452025</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>13</ClassTag01>
+    <ClassName>Marina</ClassName>
+    <Apr2005>8636421790</Apr2005>
+    <Pry2006>9081610800</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>9081610800</Apr2006>
+    <Comp20062005>445189010</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>14</ClassTag01>
+    <ClassName>Trabajo y Previsión Social</ClassName>
+    <Apr2005>3185340060</Apr2005>
+    <Pry2006>3262439500</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>3262439500</Apr2006>
+    <Comp20062005>77099440</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>15</ClassTag01>
+    <ClassName>Reforma Agraria</ClassName>
+    <Apr2005>4856220730</Apr2005>
+    <Pry2006>2868758900</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>2868758900</Apr2006>
+    <Comp20062005>-1987461830</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>16</ClassTag01>
+    <ClassName>Medio Ambiente y Recursos Naturales</ClassName>
+    <Apr2005>24482864850</Apr2005>
+    <Pry2006>17007953000</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>17007953000</Apr2006>
+    <Comp20062005>-7474911850</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>17</ClassTag01>
+    <ClassName>Procuraduría General de la República</ClassName>
+    <Apr2005>8143595140</Apr2005>
+    <Pry2006>9486381000</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>9486381000</Apr2006>
+    <Comp20062005>1342785860</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>18</ClassTag01>
+    <ClassName>Energía</ClassName>
+    <Apr2005>26413934230</Apr2005>
+    <Pry2006>349392761361</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>349392761361</Apr2006>
+    <Comp20062005>322978827131</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>19</ClassTag01>
+    <ClassName>Aportaciones a Seguridad Social</ClassName>
+    <Apr2005>147679372070</Apr2005>
+    <Pry2006>175230755135</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>175230755135</Apr2006>
+    <Comp20062005>27551383065</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>20</ClassTag01>
+    <ClassName>Desarrollo Social</ClassName>
+    <Apr2005>23744119440</Apr2005>
+    <Pry2006>26486181800</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>26486181800</Apr2006>
+    <Comp20062005>2742062360</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>21</ClassTag01>
+    <ClassName>Turismo</ClassName>
+    <Apr2005>1147453750</Apr2005>
+    <Pry2006>1230827000</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>1230827000</Apr2006>
+    <Comp20062005>83373250</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>22</ClassTag01>
+    <ClassName>Instituto Federal Electoral</ClassName>
+    <Apr2005>6398053135</Apr2005>
+    <Pry2006>12920636021</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>12920636021</Apr2006>
+    <Comp20062005>6522582886</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>23</ClassTag01>
+    <ClassName>Provisiones Salariales y Económicas</ClassName>
+    <Apr2005>6872442105</Apr2005>
+    <Pry2006>5998683102</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>5998683102</Apr2006>
+    <Comp20062005>-873759003</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>24</ClassTag01>
+    <ClassName>Deuda Pública</ClassName>
+    <Apr2005>158079648736</Apr2005>
+    <Pry2006>183542629500</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>183542629500</Apr2006>
+    <Comp20062005>25462980764</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>25</ClassTag01>
+    <ClassName>Previsiones y Aportaciones para los Sistemas de Educación Básica, Normal, Tecnológica y de Adultos</ClassName>
+    <Apr2005>36085636002</Apr2005>
+    <Pry2006>28829605500</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>28829605500</Apr2006>
+    <Comp20062005>-7256030502</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>27</ClassTag01>
+    <ClassName>Función Pública</ClassName>
+    <Apr2005>1385666320</Apr2005>
+    <Pry2006>1420597100</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>1420597100</Apr2006>
+    <Comp20062005>34930780</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>28</ClassTag01>
+    <ClassName>Participaciones a Entidades Federativas y Municipios</ClassName>
+    <Apr2005>272471600000</Apr2005>
+    <Pry2006>282934809976</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>282934809976</Apr2006>
+    <Comp20062005>10463209976</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>30</ClassTag01>
+    <ClassName>Adeudos de Ejercicios Fiscales Anteriores</ClassName>
+    <Apr2005>7250000000</Apr2005>
+    <Pry2006>15500000000</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>15500000000</Apr2006>
+    <Comp20062005>8250000000</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>31</ClassTag01>
+    <ClassName>Tribunales Agrarios</ClassName>
+    <Apr2005>666995210</Apr2005>
+    <Pry2006>578732100</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>578732100</Apr2006>
+    <Comp20062005>-88263110</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>32</ClassTag01>
+    <ClassName>Tribunal Federal de Justicia Fiscal y Administrativa</ClassName>
+    <Apr2005>1068374920</Apr2005>
+    <Pry2006>1142910100</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>1142910100</Apr2006>
+    <Comp20062005>74535180</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>33</ClassTag01>
+    <ClassName>Aportaciones Federales para Entidades Federativas y Municipios</ClassName>
+    <Apr2005>271082863183</Apr2005>
+    <Pry2006>289005554584</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>289005554584</Apr2006>
+    <Comp20062005>17922691401</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>34</ClassTag01>
+    <ClassName>Erogaciones para los Programas de Apoyo a Ahorradores y Deudores de la Banca</ClassName>
+    <Apr2005>31773767900</Apr2005>
+    <Pry2006>36972781800</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>36972781800</Apr2006>
+    <Comp20062005>5199013900</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>35</ClassTag01>
+    <ClassName>Comisión Nacional de los Derechos Humanos</ClassName>
+    <Apr2005>708083414</Apr2005>
+    <Pry2006>866043110</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>866043110</Apr2006>
+    <Comp20062005>157959696</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>36</ClassTag01>
+    <ClassName>Seguridad Pública</ClassName>
+    <Apr2005>7036818690</Apr2005>
+    <Pry2006>8761200000</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>8761200000</Apr2006>
+    <Comp20062005>1724381310</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>37</ClassTag01>
+    <ClassName>Consejería Jurídica del Ejecutivo Federal</ClassName>
+    <Apr2005>72134500</Apr2005>
+    <Pry2006>74907000</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>74907000</Apr2006>
+    <Comp20062005>2772500</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>38</ClassTag01>
+    <ClassName>Consejo Nacional de Ciencia y Tecnología</ClassName>
+    <Apr2005>8143312760</Apr2005>
+    <Pry2006>7879047600</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>7879047600</Apr2006>
+    <Comp20062005>-264265160</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>39</ClassTag01>
+    <ClassName>Programa de Apoyos para el Fortalecimiento de las Entidades Federativas</ClassName>
+    <Apr2005>20386000000</Apr2005>
+    <Pry2006>0</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>0</Apr2006>
+    <Comp20062005>-20386000000</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>50</ClassTag01>
+    <ClassName>Instituto Mexicano del Seguro Social</ClassName>
+    <Apr2005>0</Apr2005>
+    <Pry2006>209820400000</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>209820400000</Apr2006>
+    <Comp20062005>209820400000</Comp20062005>
+  </Presupuesto>
+  <Presupuesto>
+    <ClassTag01>51</ClassTag01>
+    <ClassName>Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado</ClassName>
+    <Apr2005>0</Apr2005>
+    <Pry2006>73395400000</Pry2006>
+    <Amp2006>0</Amp2006>
+    <Red2006>0</Red2006>
+    <Apr2006>73395400000</Apr2006>
+    <Comp20062005>73395400000</Comp20062005>
+  </Presupuesto>
+</NewDataSet>

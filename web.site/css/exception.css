@@ -1,0 +1,81 @@
+BODY
+{
+	border-right: #c5cfcf 1px solid;
+	border-top: #c5cfcf 1px solid;
+	font-size: 8pt;
+	margin: 6px;
+	border-left: #c5cfcf 1px solid;
+	color: #3a707d;
+	border-bottom: #c5cfcf 1px solid;
+	font-family: Tahoma;
+	background-color: #ffffe7;
+}
+TABLE
+{
+    FONT-SIZE: 8pt;
+    MARGIN: 0px;
+    FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+.titleRow
+{
+	font-weight: bold;
+	font-size: 12pt;
+	color: #18565e;
+	border-bottom: #d3d3d3 1px solid;
+	font-family: Arial, Helvetica;
+	color: #b22222;	
+	vertical-align: middle
+}
+.description
+{
+	color: #b22222;
+	border-bottom: #d3d3d3 1px solid;
+}
+.propertyName
+{
+	font-family: Arial, Helvetica;
+	font-weight: bold;
+	height: 28px;
+	vertical-align: bottom;
+}
+.propertyValue
+{
+	margin-left: 6px;
+	color: #696969;
+}
+A:link, A:visited, A:active
+{
+    FONT-SIZE: 8pt;
+    COLOR: #003366;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    FONT-SIZE: 8pt;
+    COLOR: #001144;
+    TEXT-DECORATION: none;
+}
+.checkBox
+{
+	border-right: 0px;
+	padding-right: 0px;
+	border-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	border-left: 0px;
+	width: 16px;
+	color: #4682b4;
+	padding-top: 0px;
+	border-bottom: 0px;
+	height: 16px;
+}
+IMG
+{
+	BORDER-BOTTOM: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    CURSOR: auto;
+	margin-right: 4px;	    
+}
